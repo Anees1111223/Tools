@@ -560,15 +560,25 @@
             
             <!-- Tool Card 2 -->
             <div class="tool-card">
-    <div class="tool-card-img">
-        <i class="fas fa-image"></i>
-    </div>
+    <!-- Make entire image area clickable -->
+    <a href="img-compress.html" class="tool-card-img-link">
+        <div class="tool-card-img">
+            <i class="fas fa-image"></i>
+        </div>
+    </a>
+    
     <div class="tool-card-content">
+        <!-- Title link remains -->
         <h3><a href="/image-compressor" class="tool-title-link">Image Compressor</a></h3>
-        <p>Reduce image file size without losing quality. Supports JPG, PNG, WEBP.</p>
+        
+        <!-- Make description clickable too -->
+        <a href="/image-compressor" class="tool-desc-link">
+            <p>Reduce image file size without losing quality. Supports JPG, PNG, WEBP.</p>
+        </a>
+        
         <div class="tool-card-footer">
             <span><i class="fas fa-star"></i> 4.7</span>
-            <a href="/img-compress.html" class="image compression tool">
+            <a href="/image-compressor" class="tool-link">
                 Use Tool <i class="fas fa-arrow-right"></i>
             </a>
         </div>
